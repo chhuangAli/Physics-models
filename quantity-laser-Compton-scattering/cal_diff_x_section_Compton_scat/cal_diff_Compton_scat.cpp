@@ -1,8 +1,10 @@
-//////******************************
+///******************************
 //
 // This macros calculates the differential cross section in Laser-Compton scattering.
 // The formula of the cross section is referred to [Nucl. Instr. Meth. A 495 (2002) 95] 
-// *** I multiply one more r0 which is the classic radius of electron in Eq. 3. It should be there according to the cited paper. 
+// Note that I multiply one more r0 which is the classic radius of electron in Eq. 3. It should be there according to the cited paper. 
+//////******************************
+
 
 #include <iostream>
 #include <cmath>

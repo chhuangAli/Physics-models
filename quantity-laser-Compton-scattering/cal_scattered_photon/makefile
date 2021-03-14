@@ -15,4 +15,4 @@ GOrun: $(SRC)
 GOrun2: $(SRC2)
 	g++ -o GOrun $(SRC2) `root-config --libs --cflags` -I${INCLU_HEAD} -L${INCLU_LIB} -lBeam
 clean:
-	rm GOrun
+	rm GOrun *.o
